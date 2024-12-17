@@ -1,6 +1,19 @@
 # Instruções
 
-Ao iniciar o método inicializaDados() da Classe com.example.caju.demo.InitConfigApp.java irá dar uma carga inicial de dados dos comerciantes de de saldos em contas.
+para iniciar o serviço 
+
+```bat
+mvn spring-boot:run
+ou (windows)
+.\mvnw spring-boot:run
+ou (mac\linux)
+./mvnw spring-boot:run
+```
+
+está sendo utilizado o banco H2 por ser simples e não precisar de instalação.
+
+Ao iniciar o método inicializaDados() da Classe com.example.caju.demo.InitConfigApp irá dar uma carga inicial de dados dos comerciantes de de saldos em contas.
+
 
 ### comerciantes
 vinculado um mcc ao nome do comerciante
